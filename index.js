@@ -1,4 +1,5 @@
 var mynums = ['zero', 'one', 'two', 'three'];
+//ARRAY METHODS - Array.prototype//
 
 mynums[0] = "nine"; //Changes this items at index zero.
 
@@ -21,3 +22,15 @@ Object.getOwnPropertyNames(mynums);
 ["two", "zero", colour: "blue"]
 it will return the following properties:
 ["two", "zero", colour: "blue"]*/
+
+//Looping Arrays//
+//for each//
+var names = ["Alex", "Ron", "Kent"]
+
+for (x in names) {
+  console.log(x); //prints the indexes.
+}
+
+for (x in names) {
+  console.log(names[x]); //prints the names of the elements.
+}
