@@ -24,8 +24,9 @@ it will return the following properties:
 ["two", "zero", colour: "blue"]*/
 
 //Looping Arrays//
+
 //for each//
-var names = ["Alex", "Ron", "Kent"]
+var names = ["Alex", "Ron", "Kent"];
 
 for (x in names) {
   console.log(x); //prints the indexes.
@@ -33,4 +34,13 @@ for (x in names) {
 
 for (x in names) {
   console.log(names[x]); //prints the names of the elements.
+}
+
+//for loop//
+
+var someNames = ["Mary", "Rosa", "Elizabeth", "Yoli"];
+
+for (x = 0; x <= 3; x++) {
+  console.log(x); //prints the indexes.
+  console.log(someNames[x]);
 }
