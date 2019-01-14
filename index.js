@@ -36,7 +36,7 @@ for (x in names) {
   console.log(names[x]); //prints the names of the elements.
 }
 
-//for loop//
+//for loop (more accurate)//
 
 var someNames = ["Mary", "Rosa", "Elizabeth", "Yoli"];
 
@@ -63,3 +63,7 @@ for (x = 0; x <= 3; x++) {
 2 Elizabeth
 3 Yoli
  */
+
+for (x = 0; x <= someNames.length - 1; x++) {
+  console.log(someNames[x] + " is the name.");
+}
