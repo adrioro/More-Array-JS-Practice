@@ -44,3 +44,22 @@ for (x = 0; x <= 3; x++) {
   console.log(x); //prints the indexes.
   console.log(someNames[x]);
 }
+/* 0
+Mary
+1
+Rosa
+2
+Elizabeth
+3
+Yoli
+*/
+
+for (x = 0; x <= 3; x++) {
+  console.log(x + " " + someNames[x]);
+}
+/*
+0 Mary
+1 Rosa
+2 Elizabeth
+3 Yoli
+ */
